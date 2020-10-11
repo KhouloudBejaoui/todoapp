@@ -54,7 +54,7 @@ class App extends Component{
         {notes}
         <div className="btn" onClick={this.addNote.bind(this)}>+</div>
 
-        <input type="text" placeholder="write here.."
+        <input type="text" placeholder="you can write here.."
             ref={((input) => {this.textInput = input})}
             className="textInput"
             value={this.state.noteText}
